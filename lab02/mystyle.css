@@ -1,6 +1,8 @@
 body {
     background-color: lightblue;
 }
-p.italic {
-    font-style: italic;
+
+td {
+    height: 50px;
+    vertical-align: bottom;
 }
