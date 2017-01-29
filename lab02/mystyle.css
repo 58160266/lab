@@ -2,7 +2,52 @@ body {
     background-color: lightblue;
 }
 
+font {
+    size: 3;
+    font-family: "supermarket", "BSRU BANSOMDEJ";
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,
 td {
-    height: 50px;
-    vertical-align: bottom;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
