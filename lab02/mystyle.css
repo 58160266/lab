@@ -4,12 +4,22 @@ body {
 
 font {
     size: 3;
+    text-align: center;
     font-family: "supermarket", "BSRU BANSOMDEJ";
+}
+
+.fonth {
+    size: 5;
 }
 
 table {
     border-collapse: collapse;
     width: 80%;
+}
+
+.table1 {
+    border: none;
+    background-color: white;
 }
 
 th,
@@ -29,8 +39,8 @@ th {
 
 .button {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 60px 40px;
+    font-size: 30px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
